@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PayNearbyAssignment</string>
+    <string name="upload_from_gallery">Upload from Gallery</string>
+    <string name="take_a_picture">Take a Picture</string>
+    <string name="upload_via">Upload Via?</string>
+    <string name="alert">Alert!</string>
+    <string name="external_storage_camera_permission">External storage, audio and camera permission is necessary for uploading media!</string>
+    <string name="yes">Yes</string>
+    <string name="invalid_path_exception">External Files Directory Not Found</string>
+    <string name="sorry_combo_not_saved">Sorry we could not save your combo, please try again</string>
+    <string name="sorry_could_not_perform_operations">Sorry we could not perform the operations, please try again</string>
+    <string name="select_both_shirt_and_pant_item_text">Please make sure you have selected both shirt and pants</string>
+    <string name="shirts_text">shirts</string>
+    <string name="pants_text">pants</string>
+    <string name="error_loading_the_image">Error loading the image</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="show_case_text_shirts">Add Shirts Images here via Gallery/Camera</string>
+    <string name="show_case_text_pants">Add Pants Images here via Gallery/Camera</string>
+
+    <string name="ok">Ok</string>
+</resources>

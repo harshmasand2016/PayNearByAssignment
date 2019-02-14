@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="internal_shirts_images"
+        path="Images/Shirts Images" />
+    <external-files-path
+        name="external_images"
+        path="Pictures/" />
+    <files-path
+        name="internal_pants_images"
+        path="Images/Pants Images" />
+</paths>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#01C99E</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="secondary_text_gray">#888888</color>
+    <color name="circle_unselected_gray">#40E0E0E0</color>
+    <color name="circle_selected_gray">#309E9E9E</color>
+    <color name="white">#FFFF</color>
+    <color name="button_bg">#01C99E</color>
+    <color name="button_bg_light">#6001C99E</color>
+    <color name="button_bg_pressed">#9001C99E</color>
+    <color name="elevation_color_light">#E0E0E0</color>
+    <color name="transparent_black_with_opacity">#BF000000</color>
+    <color name="draft_badge_bg">#E7A604</color>
+    <color name="seek_bar_background">#ababab</color>
+    <color name="circular_shade">#F5A623</color>
+    <color name="circular_shade_very_light">#20F5A623</color>
+    <color name="circular_shade_light">#30F5A623</color>
+    <color name="gradient_shade_primary">#2dbe99</color>
+    <color name="gradient_shade_secondary">#ccdfb9</color>
+    <color name="search_screen_background">#FCFCFC</color>
+    <color name="material_red">#f44336</color>
+
+</resources>
