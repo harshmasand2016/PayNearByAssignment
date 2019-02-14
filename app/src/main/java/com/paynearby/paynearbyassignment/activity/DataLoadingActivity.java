@@ -2,14 +2,11 @@ package com.paynearby.paynearbyassignment.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.os.Parcelable;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.View;
 
-import com.airbnb.lottie.LottieAnimationView;
 import com.j256.ormlite.dao.Dao;
 import com.paynearby.paynearbyassignment.R;
 import com.paynearby.paynearbyassignment.app.PayNearbyApplication;
@@ -99,7 +96,11 @@ public class DataLoadingActivity extends AppCompatActivity {
         navigateToMainViewIntent.putParcelableArrayListExtra(PayNearbyIntentConstants.SHIRTS_LIST, (ArrayList<? extends Parcelable>) shirtsItemList);
         navigateToMainViewIntent.putParcelableArrayListExtra(PayNearbyIntentConstants.COMBO_LIST, (ArrayList<? extends Parcelable>) comboItemList);
         startActivity(navigateToMainViewIntent);
+        finish();
     }
 
-
+    @Override
+    public void onBackPressed() {
+        //Do Nothing
+    }
 }

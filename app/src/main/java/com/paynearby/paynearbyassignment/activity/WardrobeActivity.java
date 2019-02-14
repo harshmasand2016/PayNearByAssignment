@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
@@ -17,14 +18,13 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.AppCompatImageView;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.Toast;
+
 import com.j256.ormlite.dao.Dao;
 import com.paynearby.paynearbyassignment.R;
 import com.paynearby.paynearbyassignment.adapter.PantsImageLoadingAdapter;
@@ -212,6 +212,7 @@ public class WardrobeActivity extends AppCompatActivity {
         if(comboItemList == null){
             comboItemList = new ArrayList<>();
         }
+
         pantsImageLoadingAdapter = new PantsImageLoadingAdapter(getApplicationContext(),pantsItemList);
         shirtsLoadingAdapter = new ShirtsLoadingAdapter(getApplicationContext(),shirtsItemList);
         shirtsPager.setOffscreenPageLimit(shirtsItemList.size());
@@ -572,6 +573,29 @@ public class WardrobeActivity extends AppCompatActivity {
         if(progressDialog != null) {
             progressDialog.dismiss();
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(WardrobeActivity.this);
+        builder.setTitle(getString(R.string.alert));
+        builder.setMessage(getString(R.string.sure_exit));
+        builder.setCancelable(true);
+        builder.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+                finish();
+            }
+        });
+        builder.setNegativeButton(getString(R.string.no), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        final android.app.AlertDialog alertDialog = builder.create();
+        alertDialog.show();
     }
 
 
