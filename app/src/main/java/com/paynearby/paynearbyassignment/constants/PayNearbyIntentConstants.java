@@ -1,4 +1,4 @@
-package constants;
+package com.paynearby.paynearbyassignment.constants;
 
 public interface PayNearbyIntentConstants {
     String PANTS_LIST = "pantsList";

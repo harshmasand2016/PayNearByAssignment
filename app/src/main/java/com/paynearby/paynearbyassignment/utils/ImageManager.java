@@ -11,7 +11,6 @@ import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
 
 import com.paynearby.paynearbyassignment.BuildConfig;
-import com.paynearby.paynearbyassignment.R;
 import com.paynearby.paynearbyassignment.app.PayNearbyApplication;
 import com.paynearby.paynearbyassignment.exception.InvalidPathException;
 
@@ -25,8 +24,6 @@ import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
-
-import constants.PayNearbyStringConstants;
 
 import static android.support.v4.content.FileProvider.getUriForFile;
 

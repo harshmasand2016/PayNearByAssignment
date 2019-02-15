@@ -10,6 +10,7 @@ import android.util.Log;
 import com.j256.ormlite.dao.Dao;
 import com.paynearby.paynearbyassignment.R;
 import com.paynearby.paynearbyassignment.app.PayNearbyApplication;
+import com.paynearby.paynearbyassignment.constants.PayNearbyIntentConstants;
 import com.paynearby.paynearbyassignment.dao.ModelDao;
 import com.paynearby.paynearbyassignment.model.ComboItem;
 import com.paynearby.paynearbyassignment.model.PantsItem;
@@ -20,7 +21,6 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import constants.PayNearbyIntentConstants;
 
 public class DataLoadingActivity extends AppCompatActivity {
 

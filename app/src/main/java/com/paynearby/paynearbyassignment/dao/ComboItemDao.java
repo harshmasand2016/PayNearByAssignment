@@ -3,15 +3,11 @@ package com.paynearby.paynearbyassignment.dao;
 import android.database.Cursor;
 
 import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
-import com.j256.ormlite.dao.Dao;
-import com.j256.ormlite.stmt.QueryBuilder;
-import com.j256.ormlite.stmt.UpdateBuilder;
 import com.paynearby.paynearbyassignment.app.PayNearbyApplication;
+import com.paynearby.paynearbyassignment.constants.PayNearbyDatabaseConstants;
 import com.paynearby.paynearbyassignment.model.ComboItem;
-import com.paynearby.paynearbyassignment.model.ShirtsItem;
 
 import java.sql.SQLException;
-import constants.PayNearbyDatabaseConstants;
 
 public class ComboItemDao extends ModelDao {
     public ComboItemDao(OrmLiteSqliteOpenHelper dbHelper) {

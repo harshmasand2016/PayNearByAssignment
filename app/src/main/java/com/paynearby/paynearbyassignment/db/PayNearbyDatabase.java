@@ -3,16 +3,18 @@ package com.paynearby.paynearbyassignment.db;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
+
 import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
+import com.paynearby.paynearbyassignment.constants.PayNearbyDatabaseConstants;
 import com.paynearby.paynearbyassignment.model.ComboItem;
 import com.paynearby.paynearbyassignment.model.PantsItem;
 import com.paynearby.paynearbyassignment.model.ShirtsItem;
+
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import constants.PayNearbyDatabaseConstants;
 
 public class PayNearbyDatabase extends OrmLiteSqliteOpenHelper{
 

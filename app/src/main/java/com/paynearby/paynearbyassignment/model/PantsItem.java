@@ -5,9 +5,8 @@ import android.os.Parcelable;
 
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
+import com.paynearby.paynearbyassignment.constants.PayNearbyDatabaseConstants;
 import com.paynearby.paynearbyassignment.db.Model;
-
-import constants.PayNearbyDatabaseConstants;
 
 @DatabaseTable(tableName = PayNearbyDatabaseConstants.TABLE_PANTS)
 public class PantsItem extends Model implements Parcelable{

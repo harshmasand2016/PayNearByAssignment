@@ -30,6 +30,7 @@ import com.paynearby.paynearbyassignment.R;
 import com.paynearby.paynearbyassignment.adapter.PantsImageLoadingAdapter;
 import com.paynearby.paynearbyassignment.adapter.ShirtsLoadingAdapter;
 import com.paynearby.paynearbyassignment.app.PayNearbyApplication;
+import com.paynearby.paynearbyassignment.constants.PayNearbyIntentConstants;
 import com.paynearby.paynearbyassignment.dao.ComboItemDao;
 import com.paynearby.paynearbyassignment.dao.ModelDao;
 import com.paynearby.paynearbyassignment.dao.PantIemDao;
@@ -45,7 +46,6 @@ import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-import constants.PayNearbyIntentConstants;
 import uk.co.deanwild.materialshowcaseview.MaterialShowcaseSequence;
 import uk.co.deanwild.materialshowcaseview.ShowcaseConfig;
 
